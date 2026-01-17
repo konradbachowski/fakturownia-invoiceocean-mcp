@@ -97,8 +97,8 @@ Add this section inside `"mcpServers"` or `"mcp"`:
 
 Once the application is restarted, you can chat with your AI:
 *   *"Show me the list of invoices from this month."*
-*   *"Issue a VAT invoice for client Pixelbee for 100 PLN for consulting."*
-*   *"Register a payment of 500 PLN from client with ID 123."*
+*   *"Issue a VAT invoice for client Heyneuron for 1000 PLN for consulting."*
+*   *"Register a payment of 5000 PLN from client with ID 123."*
 *   *"How many clients are in our database?"*
 
 ---
