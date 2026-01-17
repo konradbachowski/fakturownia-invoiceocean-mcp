@@ -1,13 +1,13 @@
 <div align="center">
 
-# 🧾 Fakturownia MCP Server
+# 🧾 Fakturownia / InvoiceOcean MCP Server
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
 [![FastMCP](https://img.shields.io/badge/framework-FastMCP-green.svg)](https://github.com/jlowin/fastmcp)
 
-**Manage your Fakturownia (InvoiceOcean) account directly from your AI agent.**  
-Issue invoices, check payments, and list clients using simple natural language commands.
+**Manage your Fakturownia / InvoiceOcean (BitFactura, VosFactures) account directly from your AI agent.**  
+Issue invoices, check payments, and list clients using simple natural language commands. Works with all global versions of the platform.
 
 [Report Bug](https://github.com/konradbachowski/fakturownia-mcp/issues) • [HeyNeuron Website](https://heyneuron.com)
 
@@ -15,14 +15,24 @@ Issue invoices, check payments, and list clients using simple natural language c
 
 ---
 
+## 🌍 Supported Platforms
+This MCP server works with all white-label versions of the platform:
+- **Fakturownia.pl** (Poland)
+- **InvoiceOcean.com** (Global / USA)
+- **BitFactura.es** (Spain)
+- **VosFactures.fr** (France)
+- **InvoiceOcean.de** (Germany)
+
+---
+
 ## 🛠️ Step 0: Where to find your API credentials?
 
-Before you start, you need two things from your Fakturownia.pl account:
+Before you start, you need two things from your account:
 
-1.  **Domain (Subdomain)**: This is the first part of your URL. If you log in at `https://mycompany.fakturownia.pl`, your domain is `mycompany`.
+1.  **Domain (Subdomain)**: This is the first part of your URL. If you log in at `https://mycompany.fakturownia.pl` or `https://mycompany.invoiceocean.com`, your domain is `mycompany`.
 2.  **API Token**:
-    *   Log in to Fakturownia.
-    *   Go to **Settings** (top right corner) -> **Account Settings**.
+    *   Log in to your account.
+    *   Go to **Settings** -> **Account Settings**.
     *   Select **Integration / API** from the left menu.
     *   Copy your **Authorization Code (API Token)**.
 
