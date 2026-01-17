@@ -1,0 +1,17 @@
+# Smithery configuration for Fakturownia / InvoiceOcean MCP
+# Documentation: https://smithery.ai/docs/concepts/cli
+
+runtime: container
+target: local
+startCommand: python main.py
+
+# Define the environment variables users need to provide
+config:
+  FAKTUROWNIA_API_TOKEN:
+    type: string
+    description: "Your Fakturownia API token"
+    required: true
+  FAKTUROWNIA_DOMAIN:
+    type: string
+    description: "Your Fakturownia subdomain (e.g. 'mycompany')"
+    required: true
