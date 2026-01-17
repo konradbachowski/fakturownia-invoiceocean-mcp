@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fakturownia-invoiceocean-mcp"
+version = "0.1.0"
+description = "MCP server for Fakturownia / InvoiceOcean"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [
+    {name = "Konrad Bachowski", email = "kontakt@heyneuron.com"}
+]
+dependencies = [
+    "fastmcp",
+    "httpx",
+    "python-dotenv"
+]
+
+[project.scripts]
+fakturownia-mcp = "main:mcp.run"
+
+[tool.setuptools]
+py-modules = ["main"]

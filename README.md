@@ -116,5 +116,7 @@ This project is part of our mission to support the Open Source community. If you
 
 Distributed under the **MIT** License. You are free to modify and use it for commercial purposes.
 
+<!-- mcp-name: io.github.konradbachowski/fakturownia-invoiceocean-mcp -->
+
 ---
 <p align="center">Built with passion by the community & <b>HeyNeuron</b></p>
