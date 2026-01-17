@@ -1,0 +1,61 @@
+{
+  "name": "fakturownia-invoiceocean",
+  "displayName": "Fakturownia / InvoiceOcean",
+  "description": "Manage invoices, clients, and payments across all Fakturownia / InvoiceOcean platforms.",
+  "repo": "https://github.com/konradbachowski/fakturownia-invoiceocean-mcp",
+  "language": "python",
+  "tools": [
+    {
+      "name": "list_invoices",
+      "description": "Lists invoices from Fakturownia with period filtering."
+    },
+    {
+      "name": "get_invoice",
+      "description": "Retrieves complete invoice details including line items."
+    },
+    {
+      "name": "create_invoice",
+      "description": "Creates a new invoice for an existing client."
+    },
+    {
+      "name": "list_clients",
+      "description": "Retrieves a paginated list of clients."
+    },
+    {
+      "name": "get_client",
+      "description": "Retrieves complete details of a specific client identified by their ID."
+    },
+    {
+      "name": "create_client",
+      "description": "Creates a new client in the system."
+    },
+    {
+      "name": "list_products",
+      "description": "Retrieves a list of all products."
+    },
+    {
+      "name": "get_product",
+      "description": "Retrieves the complete details of a specific product by its ID."
+    },
+    {
+      "name": "create_product",
+      "description": "Adds a new product to the catalog."
+    },
+    {
+      "name": "list_payments",
+      "description": "Retrieves all payments."
+    },
+    {
+      "name": "create_payment",
+      "description": "Records a payment."
+    },
+    {
+      "name": "list_departments",
+      "description": "Lists all departments (business locations)."
+    },
+    {
+      "name": "get_department",
+      "description": "Retrieves details of a specific department."
+    }
+  ]
+}
