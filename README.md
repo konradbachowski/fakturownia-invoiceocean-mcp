@@ -9,7 +9,7 @@
 **Manage your Fakturownia / InvoiceOcean (BitFactura, VosFactures) account directly from your AI agent.**  
 Issue invoices, check payments, and list clients using simple natural language commands. Works with all global versions of the platform.
 
-[Report Bug](https://github.com/konradbachowski/fakturownia-mcp/issues) • [HeyNeuron Website](https://heyneuron.com)
+[Report Bug](https://github.com/konradbachowski/fakturownia-invoiceocean-mcp/issues) • [HeyNeuron Website](https://heyneuron.com)
 
 </div>
 
@@ -43,8 +43,8 @@ Before you start, you need two things from your account:
 ### 1. Download the Code
 Open your terminal and paste:
 ```bash
-git clone https://github.com/konradbachowski/fakturownia-mcp.git
-cd fakturownia-mcp
+git clone https://github.com/konradbachowski/fakturownia-invoiceocean-mcp.git
+cd fakturownia-invoiceocean-mcp
 ```
 
 ### 2. Prepare the Environment
